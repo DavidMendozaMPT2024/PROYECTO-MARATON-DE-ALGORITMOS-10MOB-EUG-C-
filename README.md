@@ -1,2 +1,2 @@
 # PROYECTO-MARATON-DE-ALGORITMOS-10MOB-EUG-C-
-By: DDM
+Miselamea de 1000 ejericios c++
