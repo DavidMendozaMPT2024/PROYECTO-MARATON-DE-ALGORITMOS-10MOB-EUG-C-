@@ -1,15 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Ejercicio 61
-// Descripción: (ver documento principal para detalles)
-// Tema: Algoritmos avanzados / STL / Grafos / DP
-
+// Ejercicio 61: Ordenamiento y clasificación
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    
-    // Escribe tu solución aquí
-    
+    int n;
+    cin >> n;
+    vector<int> v(n);
+    for (int &x : v) cin >> x;
+    sort(v.begin(), v.end());
+    for (int x : v) cout << x << " ";
+    cout << "\n";
     return 0;
 }
